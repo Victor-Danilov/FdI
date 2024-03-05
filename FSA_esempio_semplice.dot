@@ -1,0 +1,13 @@
+digraph automa {
+  size="6,6";
+  rankdir="LR";
+  start -> q0 [shape=none];
+  end = q1;
+  q0 -> q1 [label="a"];
+  q0 -> q2 [label="b"];
+  q1 -> q1 [label="a"];
+  q1 -> q0 [label="b"];
+  q2 -> q0 [label="b"];
+  q2 -> q1 [label="a"];
+  q1 [shape=doublecircle];
+}
