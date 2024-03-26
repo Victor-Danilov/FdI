@@ -26,6 +26,8 @@ L’input e’ la sequenza di tasti premuti, mentre lo stato e’ il piano in cu
 
 ![Senza titolo](https://github.com/Victor-Danilov/FdI/assets/98687601/198cf3f8-3b18-484c-adf7-1ef95fd05582)
 
+>Codice dot del grafico realizzato con Graphviz
+
 ```dot
 digraph automa {
   size="6,6";
@@ -41,7 +43,6 @@ digraph automa {
   q1 [shape=doublecircle];
 }
 ```
->Codice dot del grafico realizzato con Graphviz
 
 ## Automi deterministici (DFA-Deterministic Finite Automaton)
 
